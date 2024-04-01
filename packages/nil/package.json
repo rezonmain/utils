@@ -10,5 +10,5 @@
   },
   "author": "rezonmain",
   "license": "MIT",
-  "repository": "https://github.com/rezonmain/utils"
+  "repository": {"type": "git", "url": "https://github.com/rezonmain/utils.git"}
 }

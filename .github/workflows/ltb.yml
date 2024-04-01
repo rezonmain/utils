@@ -1,0 +1,16 @@
+name: Test, lint & build
+run-name: ${{ github.actor }} is testing, linting & building the codebase
+on:
+  pull_request:
+    branches:
+      - main
+jobs:
+  Lint-Test-Build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v1
+      - run: bun install
+      - run: bun run lint
+      - run: bun run test
+      - run: bun run build

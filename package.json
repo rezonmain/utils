@@ -7,7 +7,7 @@
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "test": "turbo test",
-    "publish-packages": "turbo run build lint test && changeset version && changeset publish"
+    "publish-packages": "changeset version && changeset publish"
   },
   "devDependencies": {
     "@repo/eslint-config": "*",
@@ -21,7 +21,6 @@
   },
   "packageManager": "bun@1.0.18",
   "workspaces": [
-    "apps/*",
     "packages/*"
   ],
   "dependencies": {
