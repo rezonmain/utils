@@ -10,5 +10,8 @@
   },
   "author": "rezonmain",
   "license": "MIT",
-  "repository": {"type": "git", "url": "https://github.com/rezonmain/utils.git"}
+  "repository": {"type": "git", "url": "https://github.com/rezonmain/utils.git"},
+  "publishConfig": {
+    "access": "public"
+  }
 }
