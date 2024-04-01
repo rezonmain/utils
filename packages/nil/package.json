@@ -9,5 +9,6 @@
     "test": "bun test"
   },
   "author": "rezonmain",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "https://github.com/rezonmain/utils"
 }
