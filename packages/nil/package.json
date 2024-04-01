@@ -1,6 +1,6 @@
 {
   "name": "@rezonmain/utils-nil",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "nil util function",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
