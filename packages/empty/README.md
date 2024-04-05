@@ -1,6 +1,6 @@
 # `empty()`
 
-Returns true for nil values
+Returns true for empty values
 
 ```js
 empty(undefined); // true
