@@ -6,11 +6,11 @@
  * if (error) {...}
  *  ```
  */
-function throws<T>(fn: (...args: any[]) => T): [T | undefined, any] {
+function throws<T, E = any>(fn: (...args: any[]) => T): [T?, E?] {
   try {
     return [fn(), undefined];
   } catch (error) {
-    return [undefined, error];
+    return [undefined, error as E];
   }
 }
 
