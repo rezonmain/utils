@@ -1,0 +1,17 @@
+{
+  "name": "@rezonmain/utils-throws",
+  "version": "0.0.1",
+  "description": "throws util function",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "bun test"
+  },
+  "author": "rezonmain",
+  "license": "MIT",
+  "repository": {"type": "git", "url": "https://github.com/rezonmain/utils.git"},
+  "publishConfig": {
+    "access": "public"
+  }
+}
