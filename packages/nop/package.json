@@ -1,0 +1,16 @@
+{
+  "name": "@rezonmain/utils-nop",
+  "version": "0.0.1",
+  "description": "no operation util function",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "rezonmain",
+  "license": "MIT",
+  "repository": {"type": "git", "url": "https://github.com/rezonmain/utils.git"},
+  "publishConfig": {
+    "access": "public"
+  }
+}
